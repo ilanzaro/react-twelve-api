@@ -1,0 +1,9 @@
+{
+    "welcome_to_the_application": "Welcome to React",
+    "crypto_title" : "Crypto Currency",
+    "loans_title" : "Loans",
+    "stock_market_title" : "Stock Market",
+    "home_title" : "Home",
+    "general_title" : "General",
+    "sign_out": "Sign Out"
+}
