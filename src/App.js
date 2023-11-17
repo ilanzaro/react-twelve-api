@@ -145,12 +145,12 @@ function App() {
   };
 
   return (
-    <div className="app">
-      <div className={`l-navbar ${toggleSideNav ? "show" : ""}`} id="nav-bar">
+    <div className="app-wrapper">
+      <div className={`app-nav ${toggleSideNav ? "show" : ""}`} id="nav-bar">
         <SideBarNavigation isExpended={toggleSideNav} />
       </div>
-      <div className="wrapper">
-        <div className="header" id="header">
+      <div className="app-content">
+        <div className="app-header" id="header">
           <AppHeader
             userImage={"https://i.imgur.com/hczKIze.jpg"}
             title="Header"
@@ -158,7 +158,7 @@ function App() {
             handleToggleSideNav={handleToggleSideNav}
           />
         </div>
-        <div className="content">
+        <div className="app-main">
           <Routes>
             {NavItems.map((item, index) => (
               <Route
